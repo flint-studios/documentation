@@ -3,9 +3,9 @@
   "theme": "linden",
   "name": "Invoke0 Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#e5e5e5",
+    "light": "#e5e5e5",
+    "dark": "#0e0e0e"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -131,6 +131,14 @@
       "grok",
       "download-spec",
       "download-pdf",
+      "assistant",
+      "add-mcp",
+      "windsurf",
+      "devin",
+      "aistudio",
+      "grok",
+      "download-spec",
+      "download-pdf",
       "assistant"
     ]
   },
@@ -146,7 +154,10 @@
   },
   "description": "Official documentation for all Invoke0 products & services.",
   "background": {
-    "decoration": "grid"
+    "decoration": "grid",
+    "color": {
+      "light": "#ffffff"
+    }
   },
   "fonts": {
     "family": "Fira Code"
