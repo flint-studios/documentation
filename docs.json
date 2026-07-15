@@ -59,6 +59,19 @@
           },
           "getting-started"
         ]
+      },
+      {
+        "product": "Anchor 4 Git",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "expanded": true,
+            "pages": [
+              "quickstart"
+            ]
+          },
+          "getting-started"
+        ]
       }
     ]
   },
@@ -363,6 +376,10 @@
       "add-mcp",
       "grok",
       "download-pdf",
+      "assistant",
+      "add-mcp",
+      "grok",
+      "download-pdf",
       "assistant"
     ]
   },
@@ -374,7 +391,7 @@
     }
   },
   "icons": {
-    "library": "fontawesome"
+    "library": "tabler"
   },
   "description": "Official documentation for all Invoke0 products & services.",
   "background": {
