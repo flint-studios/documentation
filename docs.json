@@ -46,6 +46,19 @@
             ]
           }
         ]
+      },
+      {
+        "product": "Anchor 4 Git",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "expanded": true,
+            "pages": [
+              "quickstart"
+            ]
+          },
+          "getting-started"
+        ]
       }
     ]
   },
@@ -313,6 +326,10 @@
       "aistudio",
       "grok",
       "download-spec",
+      "download-pdf",
+      "assistant",
+      "add-mcp",
+      "grok",
       "download-pdf",
       "assistant",
       "add-mcp",
