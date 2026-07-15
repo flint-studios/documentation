@@ -3,8 +3,8 @@
   "theme": "linden",
   "name": "Invoke0 Documentation",
   "colors": {
-    "primary": "#e5e5e5",
-    "light": "#e5e5e5",
+    "primary": "#d2e1d8",
+    "light": "#d2e1d8",
     "dark": "#0e0e0e"
   },
   "favicon": {
@@ -63,6 +63,14 @@
       "mcp",
       "cursor",
       "vscode",
+      "add-mcp",
+      "windsurf",
+      "devin",
+      "aistudio",
+      "grok",
+      "download-spec",
+      "download-pdf",
+      "assistant",
       "add-mcp",
       "windsurf",
       "devin",
