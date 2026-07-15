@@ -313,6 +313,10 @@
       "add-mcp",
       "grok",
       "download-pdf",
+      "assistant",
+      "add-mcp",
+      "grok",
+      "download-pdf",
       "assistant"
     ]
   },
