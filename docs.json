@@ -294,6 +294,14 @@
       "grok",
       "download-spec",
       "download-pdf",
+      "assistant",
+      "add-mcp",
+      "windsurf",
+      "devin",
+      "aistudio",
+      "grok",
+      "download-spec",
+      "download-pdf",
       "assistant"
     ]
   },
@@ -315,7 +323,7 @@
     }
   },
   "fonts": {
-    "family": "Fira Code"
+    "family": "DM Mono"
   },
   "thumbnails": {
     "appearance": "dark",
