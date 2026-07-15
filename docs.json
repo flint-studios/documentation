@@ -21,15 +21,20 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "products": [
+      {
+        "product": "Anchor 4 Git",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/images/BrandLogoDark.svg",
@@ -295,6 +300,10 @@
       "aistudio",
       "grok",
       "download-spec",
+      "download-pdf",
+      "assistant",
+      "add-mcp",
+      "grok",
       "download-pdf",
       "assistant",
       "add-mcp",
