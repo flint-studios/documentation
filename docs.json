@@ -55,7 +55,6 @@
   },
   "contextual": {
     "options": [
-      "copy",
       "view",
       "chatgpt",
       "claude",
@@ -302,6 +301,10 @@
       "grok",
       "download-spec",
       "download-pdf",
+      "assistant",
+      "add-mcp",
+      "grok",
+      "download-pdf",
       "assistant"
     ]
   },
@@ -323,7 +326,7 @@
     }
   },
   "fonts": {
-    "family": "DM Mono"
+    "family": "Fira Code"
   },
   "thumbnails": {
     "appearance": "dark",
@@ -347,11 +350,18 @@
   "api": {
     "playground": {
       "display": "interactive"
+    },
+    "examples": {
+      "prefill": true,
+      "autogenerate": true
     }
   },
   "errors": {
     "404": {
       "redirect": true
     }
+  },
+  "markdown": {
+    "schema": true
   }
 }
