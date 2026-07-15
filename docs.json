@@ -8,8 +8,8 @@
     "dark": "#0e0e0e"
   },
   "favicon": {
-    "light": "/images/1000061205.svg",
-    "dark": "/favicon.svg"
+    "light": "/images/BrandLogoDark.svg",
+    "dark": "/images/BrandLogoLight.svg"
   },
   "navigation": {
     "pages": [
@@ -63,6 +63,14 @@
       "mcp",
       "cursor",
       "vscode",
+      "add-mcp",
+      "windsurf",
+      "devin",
+      "aistudio",
+      "grok",
+      "download-spec",
+      "download-pdf",
+      "assistant",
       "add-mcp",
       "windsurf",
       "devin",
