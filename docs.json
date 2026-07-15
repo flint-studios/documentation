@@ -118,6 +118,14 @@
         "pages": [
           ""
         ]
+      },
+      {
+        "product": "Anchor 4 Git",
+        "icon": "terminal",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "pages": [
+          "quick-start"
+        ]
       }
     ]
   },
@@ -385,6 +393,10 @@
       "aistudio",
       "grok",
       "download-spec",
+      "download-pdf",
+      "assistant",
+      "add-mcp",
+      "grok",
       "download-pdf",
       "assistant",
       "add-mcp",
