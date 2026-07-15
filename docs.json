@@ -154,9 +154,16 @@
             ]
           }
         ]
+      },
+      {
+        "version": "0.1.1",
+        "products": [
+          {
+            "product": "Anchor4Git"
+          }
+        ]
       }
-    ],
-    "groups": []
+    ]
   },
   "logo": {
     "light": "/images/BrandLogoDark.svg",
@@ -422,6 +429,10 @@
       "aistudio",
       "grok",
       "download-spec",
+      "download-pdf",
+      "assistant",
+      "add-mcp",
+      "grok",
       "download-pdf",
       "assistant",
       "add-mcp",
