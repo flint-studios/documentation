@@ -37,8 +37,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/BrandLogoDark.svg",
+    "dark": "/images/BrandLogoLight.svg"
   },
   "navbar": {
     "links": [
@@ -63,6 +63,14 @@
       "mcp",
       "cursor",
       "vscode",
+      "add-mcp",
+      "windsurf",
+      "devin",
+      "aistudio",
+      "grok",
+      "download-spec",
+      "download-pdf",
+      "assistant",
       "add-mcp",
       "windsurf",
       "devin",
