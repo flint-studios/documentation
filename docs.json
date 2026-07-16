@@ -3,11 +3,14 @@
   "theme": "linden",
   "name": "Invoke0 Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4ed188",
+    "light": "#d8eadd",
+    "dark": "#000000"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/BrandLogoDark.svg",
+    "dark": "/images/BrandLogoLight.svg"
+  },
   "navigation": {
     "pages": [
       {
@@ -18,24 +21,29 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "products": [
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              "index",
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/BrandLogoDark.svg",
+    "dark": "/images/BrandLogoLight.svg"
   },
   "navbar": {
     "links": [
@@ -52,8 +60,6 @@
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
       "chatgpt",
       "claude",
       "perplexity",
@@ -61,11 +67,7 @@
       "cursor",
       "vscode",
       "add-mcp",
-      "windsurf",
-      "devin",
-      "aistudio",
       "grok",
-      "download-spec",
       "download-pdf",
       "assistant"
     ]
@@ -78,14 +80,19 @@
     }
   },
   "icons": {
-    "library": "fontawesome"
+    "library": "tabler"
   },
   "description": "Official documentation for all Invoke0 products & services.",
   "background": {
     "decoration": "grid"
   },
   "fonts": {
-    "family": "Fira Code"
+    "heading": {
+      "family": "Fraunces"
+    },
+    "body": {
+      "family": "Fira Code"
+    }
   },
   "thumbnails": {
     "appearance": "dark",
@@ -95,12 +102,6 @@
   },
   "styling": {
     "eyebrows": "breadcrumbs",
-    "codeblocks": {
-      "theme": {
-        "light": "one-light",
-        "dark": "ayu-dark"
-      }
-    },
     "latex": true
   },
   "metadata": {
@@ -115,5 +116,8 @@
     "404": {
       "redirect": true
     }
+  },
+  "interaction": {
+    "drilldown": false
   }
 }
