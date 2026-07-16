@@ -55,43 +55,48 @@ You run `ag fetch` and see:
 
 ### Step-by-step resolution
 
-**Step 1:** Open the listed files in your editor.
+<Steps>
+  <Step title="Open the listed files in your editor">
+  </Step>
+  <Step title="Look for conflict markers">
+    ```text
+    <<<<<<< HEAD
+    Your version of the code
+    =======
+    Their version of the code
+    >>>>>>>
+    ```
 
-**Step 2:** Look for conflict markers:
+    - `<<<<<<< HEAD` = your changes
+    - `=======` = divider between versions
+    - `>>>>>>>` = their changes
+  </Step>
+  <Step title="Edit the file to keep what you want">
+    You can:
 
-```text
-<<<<<<< HEAD
-Your version of the code
-=======
-Their version of the code
->>>>>>>
-```
+    - Keep your version (delete the markers and their version)
+    - Keep their version (delete the markers and your version)
+    - Mix both versions together manually
+  </Step>
+  <Step title="Remove all the conflict markers (<<<<<<<, =======, >>>>>>>)">
+  </Step>
+  <Step title="Save the file in your editor">
+  </Step>
+  <Step title="Tell Anchor4Git you're done">
+    ```bash
+    ag save
+    ```
 
-- `<<<<<<< HEAD` = your changes
-- `=======` = divider between versions
-- `>>>>>>>` = their changes
-
-**Step 3:** Edit the file to keep what you want. You can:
-
-- Keep your version (delete the markers and their version)
-- Keep their version (delete the markers and your version)
-- Mix both versions together
-
-**Step 4:** Remove all the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`).
-
-**Step 5:** Save the file in your editor.
-
-**Step 6:** Tell Anchor4Git you're done:
-
-```bash
-ag save
-```
-
-**Step 7:** Share your resolution:
-
-```bash
-ag upload
-```
+    <Warning>
+      This step is important as if you do not do this; **upload** will be blocked.
+    </Warning>
+  </Step>
+  <Step title="Share your resolution">
+    ```bash
+    ag upload
+    ```
+  </Step>
+</Steps>
 
 ### Example: Resolving a conflict
 
@@ -121,7 +126,7 @@ Then save and upload as normal.
 # See what the project looked like at an earlier save
 ag goto abc1234
 
-# Look around... then press Enter to return
+# Look around... then press Enter in the terminal to return
 ```
 
 ### Roll back to an old version (permanent)
@@ -143,6 +148,8 @@ ag goto abc1234 --stay
 # When you want to come back
 ag goto HEAD
 ```
+
+> Find the save ID, run `ag info`
 
 ## Setting up a shared project from scratch
 
