@@ -43,7 +43,7 @@ description: "Common problems and how to fix them."
 [ERROR] This command is unavailable while actively using 'anchor4git goto'.
 ```
 
-**Why it happens:** You used `ag goto --stay` and now you're on an old version. Some commands (save, fetch, upload) can't run while you're in this state.
+**Why it happens:** You used `ag goto --stay` and now you're on an old version. Most commands (save, fetch, upload) can't run while you're in this state to prevent data loss.
 
 **How to fix:**
 
