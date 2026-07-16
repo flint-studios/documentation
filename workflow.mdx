@@ -1,3 +1,183 @@
 ---
 title: "Workflow"
+description: "Common ways to use Anchor4Git in real-life situations."
 ---
+
+## Daily team workflow
+
+This is the normal rhythm when working with a team:
+
+```bash
+# Morning: get the latest from the team
+ag fetch
+
+# Work on your tasks (edit files all day)
+
+# Before lunch: save your progress
+ag save "Working on the dashboard"
+
+# After lunch: save and share
+ag save "Finished the dashboard layout"
+ag upload
+
+# End of day: make sure everything is shared
+ag info          # Check your status
+ag upload        # Upload if you have unsaved work
+```
+
+## First time joining a project
+
+When you're new to a project:
+
+```bash
+# 1. Download the project (do this once)
+ag fetch https://github.com/team/project.git
+
+# 2. Check the dashboard to see what's happening
+ag info
+
+# 3. Start working!
+```
+
+## Handling merge conflicts
+
+Sometimes your changes and the team's changes clash. Here's what to do:
+
+### When it happens
+
+You run `ag fetch` and see:
+
+```text
+[WARN] Conflicts detected:
+    • index.html
+    • style.css
+```
+
+### Step-by-step resolution
+
+**Step 1:** Open the listed files in your editor.
+
+**Step 2:** Look for conflict markers:
+
+```text
+<<<<<<< HEAD
+Your version of the code
+=======
+Their version of the code
+>>>>>>>
+```
+
+- `<<<<<<< HEAD` = your changes
+- `=======` = divider between versions
+- `>>>>>>>` = their changes
+
+**Step 3:** Edit the file to keep what you want. You can:
+
+- Keep your version (delete the markers and their version)
+- Keep their version (delete the markers and your version)
+- Mix both versions together
+
+**Step 4:** Remove all the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`).
+
+**Step 5:** Save the file in your editor.
+
+**Step 6:** Tell Anchor4Git you're done:
+
+```bash
+ag save
+```
+
+**Step 7:** Share your resolution:
+
+```bash
+ag upload
+```
+
+### Example: Resolving a conflict
+
+Before (conflicted file):
+
+```text
+<<<<<<< HEAD
+Welcome to our site
+=======
+Welcome to our website!
+>>>>>>>
+```
+
+After (resolved):
+
+```text
+Welcome to our website!
+```
+
+Then save and upload as normal.
+
+## Going back to an old version
+
+### Look at an old version (temporary)
+
+```bash
+# See what the project looked like at an earlier save
+ag goto abc1234
+
+# Look around... then press Enter to return
+```
+
+### Roll back to an old version (permanent)
+
+```bash
+# Find the save you want to go back to
+ag info
+
+# Permanently go back
+ag goto abc1234 --reset
+```
+
+### Stay on an old version
+
+```bash
+# Go to old version and stay there
+ag goto abc1234 --stay
+
+# When you want to come back
+ag goto HEAD
+```
+
+## Setting up a shared project from scratch
+
+If you're the team lead starting a new project:
+
+```bash
+# 1. Create the project locally
+mkdir my-project
+cd my-project
+ag init "My Project"
+
+# 2. Save the initial setup
+ag save "Initial project setup"
+
+# 3. Create a shared repository on GitHub, GitLab, etc.
+#    (this step depends on your hosting provider)
+
+# 4. Upload the project
+ag upload https://github.com/team/my-project.git
+
+# 5. Tell your team to run:
+#    ag fetch https://github.com/team/my-project.git
+```
+
+> You'll need to set up authentication (like a personal access token) for GitHub/GitLab. Check their documentation for help.
+
+## Quick reference
+
+| Situation | Command |
+| --- | --- |
+| First time setup | `ag fetch <url>` |
+| Daily download | `ag fetch` |
+| Save progress | `ag save "what I did"` |
+| Share with team | `ag upload` |
+| Check status | `ag info` |
+| Look at old version | `ag goto <id>` |
+| Return to latest | `ag goto HEAD` |
+| Change settings | `ag config` |
