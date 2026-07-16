@@ -1329,6 +1329,41 @@
             ]
           }
         ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1337,12 +1372,7 @@
     "dark": "/images/BrandLogoLight.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -1362,13 +1392,6 @@
       "download-pdf",
       "assistant"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   },
   "icons": {
     "library": "tabler"
