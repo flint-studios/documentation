@@ -1,0 +1,55 @@
+---
+title: "Config"
+description: "Change your settings"
+---
+
+Opens the project configuration file in your default text editor so you can change your name, email, or project address.
+
+## Usage
+
+```bash
+ag config
+```
+
+**Shortcut:** `ag c`
+
+## What the config file looks like
+
+```json
+{
+  "name": "Your Name",
+  "email": "your.email@example.com",
+  "origin_url": "https://github.com/team/project.git",
+  "default_branch": "main"
+}
+```
+
+## What you can change
+
+| Setting | What it does | Example |
+| --- | --- | --- |
+| `name` | Your display name (shows in saves and dashboard) | `"Alice Johnson"` |
+| `email` | Your email address (for identifying your saves) | `"alice@team.com"` |
+| `origin_url` | The project address (where `fetch` and `upload` connect to) | `"https://github.com/team/project.git"` |
+| `default_branch` | Which copy of the project to use | `"main"` |
+
+## When to use config
+
+You usually **don't need to** — Anchor4Git sets these up automatically when you first run `ag fetch`. But you might want to:
+
+- **Change your name** — if you want a different display name on saves
+- **Change the project address** — if the project moved to a new location
+- **Fix your email** — if you mistyped it during setup
+
+## Note
+
+The config file is **private to you** — it's never uploaded or shared with the team. Each person on the team has their own config file on their own computer.
+
+## Example
+
+```bash
+# Open config in your editor
+ag config
+```
+
+This opens the file in your default text editor (Notepad on Windows, TextEdit on Mac, etc.). Make your changes, save the file, and close the editor.

@@ -3,11 +3,14 @@
   "theme": "linden",
   "name": "Invoke0 Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4ed188",
+    "light": "#d8eadd",
+    "dark": "#000000"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/BrandLogoDark.svg",
+    "dark": "/images/BrandLogoLight.svg"
+  },
   "navigation": {
     "pages": [
       {
@@ -18,32 +21,1568 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "products": [
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              "index",
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              "index",
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              "index",
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart",
+                  "inroduction",
+                  "getting-started",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "inroduction",
+                  "getting-started",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "inroduction",
+                  "getting-started",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart",
+                  "inroduction",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "getting-started",
+                  "inroduction",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "inroduction",
+                  "quickstart",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "inroduction",
+                  "quickstart",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "quickstart",
+                  "anchor4git/introduction",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "anchor4git/introduction",
+                  "anchor4git/quickstart",
+                  "anchor4git/installation",
+                  "anchor4git/workflow",
+                  "anchor4git/troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "anchor4git/commands/initialise",
+                  "anchor4git/commands/fetch",
+                  "anchor4git/commands/save",
+                  "anchor4git/commands/info",
+                  "anchor4git/commands/upload",
+                  "anchor4git/commands/goto",
+                  "anchor4git/commands/config"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/BrandLogoDark.svg",
+    "dark": "/images/BrandLogoLight.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -52,8 +1591,6 @@
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
       "chatgpt",
       "claude",
       "perplexity",
@@ -61,31 +1598,25 @@
       "cursor",
       "vscode",
       "add-mcp",
-      "windsurf",
-      "devin",
-      "aistudio",
       "grok",
-      "download-spec",
       "download-pdf",
       "assistant"
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  },
   "icons": {
-    "library": "fontawesome"
+    "library": "tabler"
   },
   "description": "Official documentation for all Invoke0 products & services.",
   "background": {
     "decoration": "grid"
   },
   "fonts": {
-    "family": "Fira Code"
+    "heading": {
+      "family": "Fraunces"
+    },
+    "body": {
+      "family": "Fira Code"
+    }
   },
   "thumbnails": {
     "appearance": "dark",
@@ -95,12 +1626,6 @@
   },
   "styling": {
     "eyebrows": "breadcrumbs",
-    "codeblocks": {
-      "theme": {
-        "light": "one-light",
-        "dark": "ayu-dark"
-      }
-    },
     "latex": true
   },
   "metadata": {
@@ -115,5 +1640,8 @@
     "404": {
       "redirect": true
     }
+  },
+  "interaction": {
+    "drilldown": false
   }
 }

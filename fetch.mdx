@@ -1,0 +1,124 @@
+---
+title: "Fetch"
+description: "Download from the team"
+---
+
+Downloads the latest work from your team's shared project.
+
+## Usage
+
+```bash
+ag fetch [url] [options]
+```
+
+## Arguments
+
+| Argument | What it is | Required? |
+| --- | --- | --- |
+| `url` | The project address (web URL or folder path) | Only the first time |
+
+## Options
+
+| Option | What it does |
+| --- | --- |
+| `--force` | Replace all your local work with the team's version |
+| `--preview` | Show what would be downloaded without actually doing it |
+
+## First time using fetch
+
+The first time, you need to tell Anchor4Git where the project is:
+
+```bash
+ag fetch https://github.com/team/project.git
+```
+
+After the first time, you can just run:
+
+```bash
+ag fetch
+```
+
+Anchor4Git remembers the address from then on.
+
+## Normal use (recommended)
+
+Just run `ag fetch` to get the latest:
+
+```bash
+ag fetch
+```
+
+**What happens:**
+
+1. If you have unsaved changes, they are automatically saved first
+2. The latest work from the team is downloaded
+3. Any differences are merged into your files
+4. You're ready to keep working
+
+## Force mode (replace everything)
+
+If you want to throw away your local changes and get exactly what the team has:
+
+```bash
+ag fetch --force
+```
+
+**Warning:** This will delete any changes you haven't saved.
+
+## Preview mode
+
+To see what would happen without actually doing it:
+
+```bash
+ag fetch --preview
+```
+
+This shows you:
+
+- The project address
+- Whether your workspace has unsaved changes
+- What files would change
+- Whether the team's project is empty
+
+## What if there are conflicts?
+
+Sometimes your changes and the team's changes affect the same parts of the same file. When this happens, you'll see a message like:
+
+```text
+[WARN] Conflicts detected:
+    • index.html
+```
+
+Don't panic! Open the listed files in your editor. You'll see markers like:
+
+```text
+<<<<<<< HEAD
+Your version of the code
+=======
+Their version of the code
+>>>>>>>
+```
+
+Edit the file to keep what you want, remove the markers, then save the file and run:
+
+```bash
+ag save
+```
+
+> See the [Workflows](../workflows.md) page for more on handling conflicts.
+
+## Examples
+
+```bash
+# First time setup
+ag fetch https://github.com/team/my-project.git
+
+# Daily update
+ag fetch
+
+# See what's new without downloading
+ag fetch --preview
+
+# Replace everything with the team's version
+ag fetch --force
+```

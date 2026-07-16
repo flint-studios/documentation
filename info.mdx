@@ -1,0 +1,80 @@
+---
+title: "Info"
+description: "See project status"
+---
+
+Shows a dashboard with everything about the current project.
+
+## Usage
+
+```bash
+ag info
+```
+
+**Shortcut:** `ag d` or `ag dashboard`
+
+## What you'll see
+
+### Header panel
+
+Shows at-a-glance status:
+
+| Item | What it means |
+| --- | --- |
+| **Workspace** | **CLEAN** (no unsaved changes) or **DIRTY** (unsaved changes exist) |
+| **Sync** | Whether your work matches the team's work |
+| **Size** | How big the project is on disk |
+
+### General information
+
+| Item | What it means |
+| --- | --- |
+| **Origin Repository** | The address of the shared project |
+| **Your Username** | Your name (as configured) |
+| **Your Email** | Your email (as configured) |
+| **Last Save** | The most recent save message and when it happened |
+
+### Contributors
+
+Lists everyone who has worked on the project.
+
+### Changes in the workspace
+
+Shows which files have been added, modified, or deleted since the last save.
+
+### Save history
+
+A complete list of every save made on the project, from oldest to newest:
+
+```text
+===== Saves History =====
+  1.  abc1234  | 2 hours ago | Alice | alice@team.com | Initial setup
+  2.  def5678  | 1 hour ago  | Bob   | bob@team.com   | Added login page
+>>>3.  ghi9012  | 30 min ago  | You   | you@team.com   | Fixed the button
+```
+
+The `>>>` marker shows which save you're currently viewing.
+
+If there are more than 5 entries, press **Enter** to see more, or **Ctrl\+C** to exit.
+
+## Sync status explained
+
+| Status | What it means |
+| --- | --- |
+| In sync. | Your work matches the team's work |
+| You have N unsynced save(s) on your end. | You've saved changes locally but haven't uploaded them yet |
+| You're behind by N save(s). Run `ag fetch` | The team has changes you don't have yet |
+| N unsynced save(s) / behind by M save(s) | Both you and the team have changes |
+
+## Examples
+
+```bash
+# View the full dashboard
+ag info
+
+# Same thing, shorter
+ag d
+
+# Same thing, more descriptive name
+ag dashboard
+```
