@@ -8,8 +8,8 @@
     "dark": "#000000"
   },
   "favicon": {
-    "light": "/images/BrandLogoDark.svg",
-    "dark": "/images/BrandLogoLight.svg"
+    "light": "/images/BrandLogoLight.svg",
+    "dark": "/images/BrandLogoDark.svg"
   },
   "navigation": {
     "pages": [
