@@ -1,3 +1,64 @@
 ---
 title: "Initialise"
 ---
+
+Sets up a new Git repository with starter files. This is useful if you're starting a project from scratch rather than downloading an existing one.
+
+## Usage
+
+```bash
+ag init [name] [options]
+```
+
+## Arguments
+
+| Argument | What it is | Required? |
+| --- | --- | --- |
+| `name` | The name of your project | No (default: "Local Project") |
+
+## Options
+
+| Option | What it does |
+| --- | --- |
+| `--no-template` | Skip creating template files (README, .gitignore, LICENSE) |
+
+## What init creates
+
+### With template (default)
+
+Running `ag init "My Awesome Project"` creates:
+
+| File | Contents |
+| --- | --- |
+| `README.md` | A starter readme with sections for features, installation, usage, etc. |
+| `.gitignore` | Rules for ignoring common files (temp files, build output, secrets) |
+| `LICENSE` | MIT License (replace with your own if needed) |
+| `.git/` | The Git repository (hidden folder that Anchor4Git uses internally) |
+
+### Without template
+
+```bash
+ag init "My Project" --no-template
+```
+
+Only creates the Git repository — no files are generated.
+
+## When to use init
+
+Use `ag init` when **you** are starting a new project from nothing. After init, someone on the team will need to set up the shared project and you'll all use `ag fetch` and `ag upload` from there.
+
+> In most cases, you'll use `ag fetch <url>` to download an existing project rather than creating a new one.
+
+## License notice
+
+The MIT License template is a starting point. Replace `[year]` and `[name]` with your details, or replace it entirely with your chosen license.
+
+## Examples
+
+```bash
+# Start a new project with template files
+ag init "My Website"
+
+# Start a bare repository (no files)
+ag init "My API" --no-template
+```
