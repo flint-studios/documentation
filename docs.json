@@ -1224,6 +1224,41 @@
             ]
           }
         ]
+      },
+      {
+        "product": "Anchor4Git",
+        "description": "A highly-minimal workflow tool for small teams.",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "default": true,
+            "pages": [
+              {
+                "group": "Getting Started",
+                "expanded": true,
+                "pages": [
+                  "quickstart",
+                  "anchor4git/introduction",
+                  "installation",
+                  "workflow",
+                  "troubleshooting"
+                ]
+              },
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info",
+                  "upload",
+                  "goto",
+                  "config"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
