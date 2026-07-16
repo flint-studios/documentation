@@ -711,6 +711,36 @@
             ]
           }
         ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              },
+              "inroduction",
+              "getting-started",
+              "installation",
+              "workflow",
+              "troubleshooting",
+              {
+                "group": "Commands",
+                "pages": [
+                  "initialise",
+                  "fetch",
+                  "save",
+                  "info"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
