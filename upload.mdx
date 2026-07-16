@@ -1,0 +1,119 @@
+---
+title: "Upload"
+---
+
+# `ag upload` — Share your work
+
+Sends your saved work to the team's shared project.
+
+## Usage
+
+```bash
+ag upload [branch] [options]
+```
+
+## Arguments
+
+| Argument | What it is | Required? |
+| --- | --- | --- |
+| `branch` | Which copy of the project to upload to | No (default: `main`) |
+
+## Options
+
+| Option | What it does |
+| --- | --- |
+| `--force` | Skip safety checks — upload even if there are problems |
+| `--preview` | Show what would happen without actually uploading |
+
+## Normal use
+
+```bash
+ag upload
+```
+
+**What happens:**
+
+1. Checks if you have any conflicts that need to be resolved
+2. Checks if you need to download newer work from the team first
+3. If you have unsaved changes, they are saved automatically
+4. Your work is sent to the shared project
+5. Everyone else can now download your changes
+
+## When upload doesn't work
+
+### "Resolve conflicts before uploading"
+
+You have files with merge conflicts that need to be fixed:
+
+```text
+[WARN] Resolve conflicts before uploading:
+     • index.html
+```
+
+Open the listed files in your editor, find the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), edit to keep what you want, then:
+
+```bash
+ag save
+ag upload
+```
+
+### "You're behind by N save(s)"
+
+Your team has made changes that you don't have yet:
+
+```bash
+ag fetch
+ag upload
+```
+
+## Force mode
+
+Skip safety checks and upload anyway:
+
+```bash
+ag upload --force
+```
+
+**Warning:** Use this only if you know what you're doing. It will overwrite the team's project even if you're behind on changes.
+
+## Preview mode
+
+To see what would happen:
+
+```bash
+ag upload --preview
+```
+
+This shows:
+
+- Which branch you're uploading to
+- Whether force mode is on
+- If the team has changes you don't
+- If your workspace has unsaved changes
+- Any conflicts
+
+## Uploading to a different branch
+
+In most cases you'll just use `main`, but if you want to upload to a different copy:
+
+```bash
+ag upload develop
+```
+
+> Unless you know what branches are, stick with the default.
+
+## Examples
+
+```bash
+# Normal upload
+ag upload
+
+# Preview what would happen
+ag upload --preview
+
+# Skip safety checks (use with caution!)
+ag upload --force
+
+# Upload to a different branch
+ag upload develop
+```
