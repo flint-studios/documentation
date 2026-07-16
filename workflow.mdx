@@ -156,26 +156,28 @@ ag goto HEAD
 If you're the team lead starting a new project:
 
 ```bash
-# 1. Create the project locally
+# 1. Create a shared repository on GitHub, GitLab, etc.
+#    (this step depends on your git repository provider)
+
+# 2. Create the project locally
 mkdir my-project
 cd my-project
 ag init "My Project"
 
-# 2. Save the initial setup
+# 3. Fetch it locally to sync details
+ag fetch https://github.com/team/my-project.git
+
+# 4. Save the initial setup
 ag save "Initial project setup"
 
-# 3. Create a shared repository on GitHub, GitLab, etc.
-#    (this step depends on your hosting provider)
-#  You cna a
+# 5. Upload the project
+ag upload
 
-# 4. Upload the project
-ag upload https://github.com/team/my-project.git
-
-# 5. Tell your team to run:
+# 6. Tell your team to run:
 #    ag fetch https://github.com/team/my-project.git
 ```
 
-> You'll need to set up authentication (like a personal access token) for GitHub/GitLab. Check their documentation for help.
+> You'll need to set up authentication (like a personal access token) for GitHub/GitLab. Check their documentation for help.<br />Anchor4Git automatically handles login to major providers like GitHub using a UI.
 
 ## Quick reference
 

@@ -1,0 +1,187 @@
+---
+title: "Troubleshooting"
+description: "Common problems and how to fix them."
+---
+
+## "Git executable not found"
+
+**What you see:**
+
+```text
+[ERROR] Git executable not found. Please install git ...
+```
+
+**Why it happens:** Git is not installed on your computer.
+
+**How to fix:**
+
+1. Go to [https://git-scm.com/](https://git-scm.com/)
+2. Download and install Git
+3. Close and reopen your terminal
+4. Try again
+
+## "Local repository does not exist"
+
+**What you see:**
+
+```text
+[ERROR] Local repository does not exist. Get started by running 'ag fetch <url>' first.
+```
+
+**Why it happens:** You're trying to run a command like `ag save` or `ag info` in a folder that doesn't have a project set up yet.
+
+**How to fix:**
+
+- If you're starting a new project: `ag init "Project Name"`
+- If you're joining an existing project: `ag fetch <project-url>`
+
+## "This command is unavailable while actively using 'anchor4git goto'"
+
+**What you see:**
+
+```text
+[ERROR] This command is unavailable while actively using 'anchor4git goto'.
+```
+
+**Why it happens:** You used `ag goto --stay` and now you're on an old version. Some commands (save, fetch, upload) can't run while you're in this state.
+
+**How to fix:**
+
+```bash
+ag goto HEAD
+```
+
+Then try your command again.
+
+## Upload fails with "Resolve conflicts before uploading"
+
+**What you see:**
+
+```text
+[WARN] Resolve conflicts before uploading:
+     • index.html
+[ERROR] Resolve all conflicts, run 'ag save' and then try again.
+```
+
+**Why it happens:** You have unresolved merge conflicts in your files.
+
+**How to fix:**
+
+1. Open each listed file in your editor
+2. Find the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+3. Edit to keep what you want and remove the markers
+4. Save the file
+5. Run `ag save`
+6. Run `ag upload`
+
+## Upload fails with "You're behind by N save(s)"
+
+**What you see:**
+
+```text
+[ERROR] You're behind by 3 save(s). Run 'ag fetch' and try again.
+```
+
+**Why it happens:** Your team has made changes that you haven't downloaded yet.
+
+**How to fix:**
+
+```bash
+ag fetch
+ag upload
+```
+
+## "Nothing to save. Workspace is clean."
+
+**What you see:**
+
+```text
+[INFO] Nothing to save. Workspace is clean.
+```
+
+**Why it happens:** You haven't made any changes since the last save.
+
+**What it means:** Everything is already saved — nothing to do!
+
+## "Invalid commit 'abc1234'"
+
+**What you see:**
+
+```text
+[ERROR] Invalid commit 'abc1234'
+```
+
+**Why it happens:** The save ID you used with `ag goto` doesn't exist.
+
+**How to fix:**
+
+1. Run `ag info` to see the full save history
+2. Copy the exact save ID from the list
+3. Try again
+
+## "Origin repository not initialised"
+
+**What you see:**
+
+```text
+[ERROR] Origin repository not initalised. Run `ag fetch <url>`.
+```
+
+**Why it happens:** You ran `ag upload` but Anchor4Git doesn't know the project address yet.
+
+**How to fix:**
+
+```bash
+ag fetch <project-url>
+```
+
+Or edit the config:
+
+```bash
+ag config
+```
+
+Then add the `origin_url` field.
+
+## "Origin repository is empty"
+
+**What you see:**
+
+```text
+[SUCESS] Origin repository is empty. Nothing to download. Start working.
+```
+
+**Why it happens:** The project exists but has no files yet.
+
+**What to do:**
+
+1. Add your files
+2. `ag save "Initial work"`
+3. `ag upload`
+
+You'll be the first to populate the project!
+
+## Conflicts after `ag fetch`
+
+**What you see:** Conflict markers (`<<<<<<<`) in your files after running `ag fetch`.
+
+**Why it happens:** You and a teammate both changed the same part of the same file.
+
+**How to fix:**
+
+1. Open each conflicted file in your editor
+2. Find the markers and decide what to keep
+3. Remove all markers
+4. Save the file
+5. `ag save`
+
+See [Workflows](workflows.md#handling-merge-conflicts) for a detailed guide.
+
+## Still stuck?
+
+If none of these help, try:
+
+1. **Run with `--preview` first** — Most commands have a `--preview` flag that shows what will happen without doing it. This can help you understand what's going on.
+2. **Check your dashboard** — `ag info` shows the full status of your project.
+3. **Ask your team lead** — They can help with project-specific issues.
+4. **Report a bug** — Open an issue at [https://github.com/flint-studios/anchor4git/issues](https://github.com/flint-studios/anchor4git/issues)
