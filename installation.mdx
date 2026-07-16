@@ -1,3 +1,68 @@
 ---
 title: "Installation"
 ---
+
+## What you need
+
+Before you can use Anchor4Git, you need **Git** installed on your computer.
+
+### Install Git
+
+1. Go to [https://git-scm.com/](https://git-scm.com/)
+2. Download the version for your operating system
+3. Run the installer (the default options are fine)
+4. Open a **terminal** (Command Prompt on Windows, Terminal on Mac/Linux)
+5. Type `git --version` to verify it's installed — you should see something like `git version 2.40.0` or similar
+
+### Install Anchor4Git
+
+**The easiest way (recommended):**
+
+```bash
+pipx install anchor4git
+```
+
+> If you don't have `pipx`, install it first: `pip install pipx`
+
+**Alternative (with pip):**
+
+```bash
+pip install anchor4git
+```
+
+> On some systems you may need to use `pip3` instead of `pip`.
+
+## Verify the installation
+
+Run this command:
+
+```bash
+ag --help
+```
+
+You should see a help screen showing all available commands. If you see an error like "command not found", try closing and reopening your terminal.
+
+## What gets installed
+
+Two commands become available:
+
+| Command | What it does |
+| --- | --- |
+| `ag` | Short name — quicker to type |
+| `anchor4git` | Full name |
+
+Both do exactly the same thing. Use whichever is easier for you.
+
+## Updating Anchor4Git
+
+To get the latest version:
+
+```bash
+pip install --upgrade anchor4git
+```
+
+Or if you used pipx:
+
+```bash
+pipx upgrade anchor4git
+```
