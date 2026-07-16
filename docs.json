@@ -55,6 +55,23 @@
             ]
           }
         ]
+      },
+      {
+        "product": "Anchor4Git",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "pages": [
+              "index",
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "quickstart"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
