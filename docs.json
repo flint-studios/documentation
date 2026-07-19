@@ -9,7 +9,7 @@
   },
   "favicon": {
     "light": "/images/BrandLogoLight.svg",
-    "dark": "/images/BrandLogoDark.svg"
+    "dark": "/images/BrandLogoLight.svg"
   },
   "navigation": {
     "pages": [
@@ -64,7 +64,12 @@
     "dark": "/images/BrandLogoLight.svg"
   },
   "navbar": {
-    "links": [],
+    "links": [
+      {
+        "href": "mailto:contact@invoke0.indevs.in",
+        "label": "Contact"
+      }
+    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -125,5 +130,11 @@
   },
   "interaction": {
     "drilldown": false
+  },
+  "footer": {
+    "socials": {
+      "website": "https://invoke0.indevs.in/",
+      "github": "https://github.com/invoke-zero"
+    }
   }
 }
